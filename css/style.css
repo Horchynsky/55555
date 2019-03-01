@@ -233,7 +233,22 @@ Header
     border: 15px solid rgba(244,0,161,0.25); /* Параметры рамки */
     box-shadow: 0 0 10px #666; /* Параметры тени */ 
 }
-
+/*=================*/
+.overlay {
+visibility: hidden;
+}
+.overlay {
+animation-name: myopacity;
+-webkit-animation-name: myopacity; 
+animation-duration: 1.7s; 
+-webkit-animation-duration: 1.7s;
+animation-timing-function: ease-out; 
+-webkit-animation-timing-function: ease-out; 
+visibility: visible !important; 
+}
+@keyframes myopacity{0%{opacity:0}10%{opacity:.1}20%{opacity:.2}30%{opacity:.3}40%{opacity:.4}50%{opacity:.5}60%{opacity:.6}70%{opacity:.7}80%{opacity:.8}90%{opacity:.9}100%{opacity:1}}
+@-webkit-keyframes myopacity{0%{opacity:0}10%{opacity:.1}20%{opacity:.2}30%{opacity:.3}40%{opacity:.4}50%{opacity:.5}60%{opacity:.6}70%{opacity:.7}80%{opacity:.8}90%{opacity:.9}100%{opacity:1}}
+/*=================*/
 .text{
     width: 50%;
         margin-left: 40%;
