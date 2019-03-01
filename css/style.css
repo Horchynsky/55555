@@ -230,13 +230,13 @@ Header
     width: 25%;
     z-index: 10;
     border-radius: 100%; /* Радиус скругления */
-    border: 15px solid rgba(207,207,207,0.25); /* Параметры рамки */
+    border: 15px solid rgba(244,0,161,0.25); /* Параметры рамки */
     box-shadow: 0 0 10px #666; /* Параметры тени */ 
 }
 
 .text{
-  width: 25%;
-  margin-left: 50%;
+    width: 50%;
+  margin-left: 40%;
 }
 
 .header {
