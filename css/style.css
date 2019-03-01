@@ -236,12 +236,12 @@ Header
 
 .text{
     width: 50%;
-  margin-left: 40%;
+        margin-left: 40%;
 }
 
 .header {
 	min-height: inherit;
-	margin-bottom: 0px;
+	margin: 0px;
     height: 150px;
     background-color: rgb(172,206,198);
 }
@@ -280,7 +280,12 @@ Header
 cta
 **************************************/
 /** media queries**/
+/*===================== копм'ютери =================*/
 @media (min-width: 480px) and (max-width: 1023px) {
+    .text{
+        margin-left: 40%;
+    }
+
     .img-sec, .fig-caption {
     width: 100%;
     float: left;
@@ -289,7 +294,22 @@ cta
     padding: 56px 20px 20px;
 }
 }
+/*=================== Планшети ==========================*/
 @media (min-width: 451px) and (max-width: 768px) {
+    .overlay{
+        width: 27%;
+        border: 10px solid rgba(244,0,161,0.25);
+    }
+    h1{
+        font-size: 15pt;
+        margin: 0;
+    }
+    .header{
+        height: 100px;
+    }
+    .text{
+        margin-left: 40%;
+    }
 .filter {
     padding: 5px 18px;
     margin-bottom: 3px;
@@ -302,7 +322,23 @@ cta
     padding: 56px 20px 20px;
 }
 }
+/*==================== Телефони ==================*/
 @media (min-width: 301px) and (max-width: 450px) {
+     .overlay{
+        width: 50%;
+        margin-left: 15%;
+    }
+    .header{
+        height: 250px;
+    }
+    .text{
+        margin-left: 25%;
+    }
+    h1{
+        font-size: 12pt;
+        margin-top: 150px;
+        margin-left: 0;
+    }
 .filter {
     padding: 3px 14px;
     margin-bottom: 3px;
