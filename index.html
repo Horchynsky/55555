@@ -1,52 +1,36 @@
 <!DOCTYPE html>
+<html lang="en" class=" js no-touch">
 <head>
+  <title>Xocha time</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Xocha Time</title>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,600|Raleway:600,300|Josefin+Slab:400,700,600italic,600,400italic' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <style type="text/css">
-    @font-face {
-font-family: "RalewayRegular"; 
-
-src: url("8201.ttf") format("truetype"); 
-font-style: normal; 
-font-weight: normal; 
-} 
-body{
-  font-family: "RalewayRegular";
-  font-size: 15pt;
-}
-
-  </style>
 </head>
 
 <body>
-<!-- ========================   Header   ============================ -->
-<header>
-  <img class="left1" src="images/ez1.png">
-<img class="left4" src="images/ez4.png"> 
+  <!--HEADER START-->
+    <div class="header">
+      <img class="left1" src="img/ez1.png">
+        <img class="left4" src="img/ez4.png">
+      <div class="container">
+          <img class="overlay" src="img/xocha.png">
+        </div>
+           <div class="text">
+              <h1>Panacian cuisine 
+                <br>in the heart of lviv </h1> 
+                <p style="color: gray" >*Паназіатська кухня в серці Львова</p>
+        </div>
+        
+      </div>
+      <div><img class="rigth3" src="img/ez3.png">
+        <img class="rigth2" src="img/ez2.png"></div>
+  <!--HEADER END-->
 
-<div class="text">
-  <img class="overlay" src="images/xocha.png"> 
- <h1>Panacian cuisine 
-  <br>in the heart of lviv </h1> 
-  <p style="color: gray" >*Паназіатська кухня в серці Львова</p>
-<img class="rigth3" src="images/ez3.png">
-<img class="rigth2" src="images/ez2.png">
-</header>
-
-
-<!-- ========================   /Header   ============================ -->
-
-
-
-
-
-<!-- ========================   Slider   ============================ -->
-  <div id="slider" class="slider">
+  <!--BANNER START-->
+ <div id="slider" class="slider">
     <ol class="slider__indicators">
       <li class="slider__indicator slider__indicator_active" data-slide-to="0"></li>
       <li class="slider__indicator" data-slide-to="1"></li>
@@ -55,44 +39,55 @@ body{
     </ol>
     <div class="slider__items">
       <div class="slider__item slider__item_active">
-        <img  src="images/13.jpg" alt="c1">
+        <img  src="img/13.jpg" alt="c1">
       </div>
       <div class="slider__item">
-        <img src="images/15.jpg" alt="c1">
+        <img src="img/15.jpg" alt="c1">
       </div>
       <div class="slider__item">
-        <img src="images/24.jpg" alt="c1">
+        <img src="img/24.jpg" alt="c1">
       </div>
       <div class="slider__item">
-        <img src="images/27.jpg" alt="c1">
+        <img src="img/27.jpg" alt="c1">
       </div>
     </div>
     <a class="slider__control slider__control_prev" href="#" role="button"></a>
     <a class="slider__control slider__control_next" href="#" role="button"></a>
   </div>
-<!-- ========================   /Slider   ============================ -->
+  <!--BANNER END-->
 
-<!-- ========================   Menu   ============================ -->
-
-<h1>dvmdsmv</h1>
-<!-- ========================   /Menu   ============================ -->
-
-<!-- ========================     Footer  ============================ -->
-
-<p>kjvncsdkvn</p>
-
-
-
-
-<!-- ========================   /Footer   ============================ -->
-
-
-
-
-
-
-<!-- ==============================Slider Script============================ -->
-  <script>
+  <!--CTA1 START-->
+  <div class="cta-1">
+    <div class="container">
+      <div class="row text-center white">
+        <h1 class="cta-title" style="color: black;">Tap to see menu</h1>
+        <i class="fa fa-3x fa-file-pdf-o" style="color: black;" aria-hidden="true"></i>
+      </div>
+    </div>
+  </div>
+  <!--CTA1 END-->
+  <!--FOOTER START-->
+  <footer class="footer section-padding">
+    <div class="container">
+      <div class="row">
+        <div style="visibility: visible; animation-name: zoomIn;" class="col-sm-12 text-center wow zoomIn">
+          <h3>Follow us on:</h3>
+          <div class="footer_social">
+            <ul>
+              <li><a class="f_facebook" href="https://www.facebook.com/xocha.time/?ref=page_internal"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="f_instagram" href="https://www.instagram.com/xocha.time/?hl=ru"><i class="fa fa-instagram"></i></a></li>
+              <li><a class="f_google" href="#"><i class="fa fa-google-plus"></i></a></li>
+              <li><a class="f_linkedin" href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <!--- END COL -->
+      </div>
+      <!--- END ROW -->
+    </div>
+    <!--- END CONTAINER -->
+  </footer>
+<script>
     'use strict';
     var slider = (function (config) {
 
@@ -276,10 +271,14 @@ body{
       interval: 5000,
       pause: true
     }));
-  </script>
-<!-- ========================================================== -->
+</script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/slick.min.js"></script>
+  <script type="text/javascript" src="js/custom.js"></script>
+  <script src="contactform/contactform.js"></script>
+
 </body>
 
-</html>             
-
-              
+</html>
