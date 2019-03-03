@@ -13,6 +13,9 @@ h1
 {
 	font-size: 36px;
 }
+.menu{
+    font-size: 15pt;
+}
 
   body {
       margin: 0;
@@ -251,7 +254,7 @@ visibility: visible !important;
 /*=================*/
 .text{
     width: 50%;
-        margin-left: 40%;
+    margin-left: 40%;
 }
 
 .header {
@@ -353,6 +356,9 @@ cta
         font-size: 12pt;
         margin-top: 150px;
         margin-left: 0;
+    }
+    .menu{
+        font-size: 12pt;
     }
 .filter {
     padding: 3px 14px;
